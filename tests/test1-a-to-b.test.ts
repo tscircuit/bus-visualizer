@@ -1,5 +1,7 @@
 import { test, expect } from "bun:test";
 import type { SimpleRouteJson } from "../lib/types";
+import { srjToGd } from "../lib/srj-to-gd";
+import { getSvgFromGraphicsObject } from "graphics-debug";
 
 test("simple a to b test", () => {
 	const problem: SimpleRouteJson = {
@@ -20,5 +22,7 @@ test("simple a to b test", () => {
 		minTraceWidth: 0.1,
 	};
 
-	// expect(
+	expect(getSvgFromGraphicsObject(srjToGd(problem))).toMatchSvgSnapshot(
+		import.meta.path,
+	);
 });
