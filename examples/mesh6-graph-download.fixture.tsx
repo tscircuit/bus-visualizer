@@ -18,6 +18,7 @@ interface Node {
   width: number;
   height: number;
   level: number;
+  rc: number
   containsObstacle: boolean;
 }
 
@@ -79,15 +80,6 @@ const MeshGraph = () => {
         return [];
       }
       
-      const node = {
-        x,
-        y,
-        width,
-        height,
-        level,
-        containsObstacle: hasObstacle
-      };
-      
       return flattenedChildren.filter((child: any) => !child.containsObstacle);
     }
     
@@ -97,6 +89,7 @@ const MeshGraph = () => {
       width,
       height,
       level,
+      rc: (MAX_LEVEL - level + 1)**2,
       containsObstacle: hasObstacle
     };
     
