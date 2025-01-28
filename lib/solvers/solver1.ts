@@ -43,7 +43,6 @@ function getNeighbors(node: Node, graph: GraphData, capacityMap: Map<string, num
     .filter(edge => edge.from.id === node.id || edge.to.id === node.id)
     .map(edge => edge.from.id === node.id ? edge.to : edge.from)
     .filter(neighbor => {
-      return true
       const remainingCapacity = capacityMap.get(neighbor.id) ?? 0;
       return remainingCapacity > 0;
     });
@@ -111,9 +110,8 @@ function astar(
 // Function to update capacity after finding a path
 function updateCapacity(path: Node[], capacityMap: Map<string, number>): void {
   path.forEach(node => {
-    const key = getNodeKey(node);
-    const currentCapacity = capacityMap.get(key)!;
-    capacityMap.set(key, currentCapacity - 1);
+    const currentCapacity = capacityMap.get(node.id)!;
+    capacityMap.set(node.id, currentCapacity - 1);
   });
 }
 
@@ -126,7 +124,7 @@ function solveMultiObjective(problem: Problem, graph: GraphData): {
   // Initialize capacity map
   const capacityMap = new Map<string, number>();
   graph.nodes.forEach(node => {
-    capacityMap.set(getNodeKey(node), node.rc);
+    capacityMap.set(node.id, node.rc);
   });
 
   const solutions: ObjectiveSolution[] = [];

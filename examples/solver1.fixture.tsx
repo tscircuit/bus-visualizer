@@ -12,7 +12,16 @@ const problem: Problem = {
     {
       start: getClosestNode(solver1Graph, { x: 0, y: 200}),
       end: getClosestNode(solver1Graph, { x: 600, y: 200 })
-    }
+    },
+    {
+      start: getClosestNode(solver1Graph, { x: 0, y: 100}),
+      end: getClosestNode(solver1Graph, { x: 600, y: 800 })
+    },
+    {
+      start: getClosestNode(solver1Graph, { x: 0, y: 0}),
+      end: getClosestNode(solver1Graph, { x: 500, y: 800 })
+    },
+    
   ]
 };
 const { objectiveSolutions, attemptedPaths } = solveMultiObjective(problem, solver1Graph);

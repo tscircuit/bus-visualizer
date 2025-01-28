@@ -130,6 +130,17 @@ const MeshGraph = ({ graphData, onDownload, attemptedPaths }: MeshGraphProps) =>
             opacity={0.5}
           />
         ))}
+
+        {attemptedPaths?.map((path, i) => (
+          <path
+            key={`attempted-path-${i}`}
+            d={`M ${path.map(node => `${node.x},${node.y}`).join(' L ')}`}
+            stroke="yellow"
+            strokeWidth="2"
+            fill="none"
+            opacity="0.2"
+          />
+        ))}
         
         {edges.map((edge, i) => (
           <line
@@ -202,17 +213,6 @@ const MeshGraph = ({ graphData, onDownload, attemptedPaths }: MeshGraphProps) =>
             </g>
           )
         })}
-
-        {attemptedPaths?.map((path, i) => (
-          <path
-            key={`attempted-path-${i}`}
-            d={`M ${path.map(node => `${node.x},${node.y}`).join(' L ')}`}
-            stroke="yellow"
-            strokeWidth="2"
-            fill="none"
-            opacity="0.2"
-          />
-        ))}
       </svg>
     </div>
   );
