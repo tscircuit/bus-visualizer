@@ -4,9 +4,8 @@ import {getClosestNode} from "../lib/getClosestNode";
 import type {GraphData, Problem} from "../lib/solver-types";
 import {solveMultiObjective} from "../lib/solvers/solver1";
 import solver1GraphRaw from "./solver1-graph.json";
-import {idNodes} from "../lib/idNodes";
 
-const solver1Graph = idNodes(solver1GraphRaw as unknown as GraphData)
+const solver1Graph = solver1GraphRaw as unknown as GraphData
 
 const problem: Problem = {
   objectives: [
@@ -16,7 +15,7 @@ const problem: Problem = {
     }
   ]
 };
-const objectiveSolutions = solveMultiObjective(problem, solver1Graph);
+const { objectiveSolutions, attemptedPaths } = solveMultiObjective(problem, solver1Graph);
 
 export default () => {
   return <MeshGrid graphData={
@@ -26,7 +25,9 @@ export default () => {
         start: o.start.id,
         end: o.end.id
       })),
-      paths: convertObjectiveSolutionsToPaths(solver1Graph, objectiveSolutions)
+      paths: convertObjectiveSolutionsToPaths(solver1Graph, objectiveSolutions),
     } as any
-  } />;
+  }
+    attemptedPaths={attemptedPaths}
+  />;
 };

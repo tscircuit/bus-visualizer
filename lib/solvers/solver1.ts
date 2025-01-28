@@ -43,13 +43,13 @@ function getNeighbors(node: Node, graph: GraphData, capacityMap: Map<string, num
     .filter(edge => edge.from.id === node.id || edge.to.id === node.id)
     .map(edge => edge.from.id === node.id ? edge.to : edge.from)
     .filter(neighbor => {
-      const key = getNodeKey(neighbor);
-      const remainingCapacity = capacityMap.get(key) ?? 0;
+      return true
+      const remainingCapacity = capacityMap.get(neighbor.id) ?? 0;
       return remainingCapacity > 0;
     });
 }
 
-const MAX_ITERATIONS = 100
+const MAX_ITERATIONS = 10000
 
 // A* implementation for a single objective
 function astar(
@@ -57,7 +57,7 @@ function astar(
   goal: Node,
   graph: GraphData,
   capacityMap: Map<string, number>
-): Node[] | null {
+): { path: Node[] | null, attemptedPaths: Node[][] } {
   const frontier = new PriorityQueue();
   const cameFrom: Map<string, Node> = new Map();
   const costSoFar: Map<string, number> = new Map();
@@ -70,22 +70,20 @@ function astar(
   });
   
   costSoFar.set(getNodeKey(start), 0);
+  const attemptedPaths: Node[][] = []
 
   let iterations = 0;
   while (!frontier.isEmpty()) {
     iterations++
-    console.log("frontier.items", frontier.items);
     const current = frontier.dequeue()!;
     
-    if (current.node === goal) {
-      return current.path;
+    if (current.node.id === goal.id) {
+      return { path: current.path, attemptedPaths };
     }
 
     if (iterations > MAX_ITERATIONS) {
-      return current.path
+      return { path: null, attemptedPaths }
     }
-
-    console.log("neighbors", getNeighbors(current.node, graph, capacityMap))
 
     for (const next of getNeighbors(current.node, graph, capacityMap)) {
       const newCost = costSoFar.get(getNodeKey(current.node))! + 1;
@@ -102,10 +100,12 @@ function astar(
         cameFrom.set(next.id, current.node);
       }
     }
+
+    attemptedPaths.push(current.path)
   }
 
   console.log("no path found");
-  return null; // No path found
+  return { path: null, attemptedPaths }; // No path found
 }
 
 // Function to update capacity after finding a path
@@ -118,7 +118,11 @@ function updateCapacity(path: Node[], capacityMap: Map<string, number>): void {
 }
 
 // Main function to solve all objectives
-function solveMultiObjective(problem: Problem, graph: GraphData): ObjectiveSolution[] {
+function solveMultiObjective(problem: Problem, graph: GraphData): {
+  objectiveSolutions: ObjectiveSolution[],
+  attemptedPaths: Node[][]
+} {
+
   // Initialize capacity map
   const capacityMap = new Map<string, number>();
   graph.nodes.forEach(node => {
@@ -128,9 +132,10 @@ function solveMultiObjective(problem: Problem, graph: GraphData): ObjectiveSolut
   const solutions: ObjectiveSolution[] = [];
 
   // Try to solve each objective
+  const allAttemptedPaths: Node[][] = []
   for (const objective of problem.objectives) {
-    const path = astar(objective.start, objective.end, graph, capacityMap);
-    
+    const { path, attemptedPaths } = astar(objective.start, objective.end, graph, capacityMap);
+    allAttemptedPaths.push(...attemptedPaths)
     if (path) {
       solutions.push({ path });
       updateCapacity(path, capacityMap);
@@ -139,7 +144,7 @@ function solveMultiObjective(problem: Problem, graph: GraphData): ObjectiveSolut
     }
   }
 
-  return solutions;
+  return {objectiveSolutions: solutions, attemptedPaths: allAttemptedPaths};
 }
 
 

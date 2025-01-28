@@ -37,6 +37,7 @@ interface GraphData {
 interface MeshGraphProps {
   graphData: GraphData & {objectives?: Objective[]};
   onDownload?: () => void;
+  attemptedPaths?: Node[][];
 }
 
 // Color palette for paths
@@ -46,7 +47,7 @@ const PATH_COLORS = [
   '#51cf66', '#94d82d', '#fcc419', '#ff922b'
 ];
 
-const MeshGraph = ({ graphData, onDownload }: MeshGraphProps) => {
+const MeshGraph = ({ graphData, onDownload, attemptedPaths }: MeshGraphProps) => {
   const { nodes = [], edges = [], obstacles = [], paths = [], objectives = [] } = graphData;
   
   const CANVAS_WIDTH = 800;
@@ -201,6 +202,17 @@ const MeshGraph = ({ graphData, onDownload }: MeshGraphProps) => {
             </g>
           )
         })}
+
+        {attemptedPaths?.map((path, i) => (
+          <path
+            key={`attempted-path-${i}`}
+            d={`M ${path.map(node => `${node.x},${node.y}`).join(' L ')}`}
+            stroke="yellow"
+            strokeWidth="2"
+            fill="none"
+            opacity="0.2"
+          />
+        ))}
       </svg>
     </div>
   );
