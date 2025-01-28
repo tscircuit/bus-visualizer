@@ -5,7 +5,7 @@ import type { GraphData, Problem } from '../lib/solver-types'
 import { solveMultiObjective } from '../lib/solvers/solver2'
 import solver2GraphRaw from './solver1-narrow-graph.json'
 
-const solver2Graph = solver2GraphRaw as unknown as GraphData
+const solver2Graph = JSON.parse(JSON.stringify(solver2GraphRaw)) as unknown as GraphData
 
 const problem: Problem = {
   objectives: [
