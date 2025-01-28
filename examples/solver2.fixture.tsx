@@ -3,10 +3,8 @@ import { convertObjectiveSolutionsToPaths } from '../lib/convertObjectiveSolutio
 import { getClosestNode } from '../lib/getClosestNode'
 import type { GraphData, Problem } from '../lib/solver-types'
 import { solveMultiObjective } from '../lib/solvers/solver2'
-import solver2GraphRaw from './solver2-graph.json'
-import { idNodes } from '../lib/idNodes'
+import solver2Graph from './solver2-graph.json'
 
-const solver2Graph = idNodes(solver2GraphRaw as unknown as GraphData)
 
 const problem: Problem = {
   objectives: [
