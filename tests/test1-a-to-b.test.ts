@@ -15,7 +15,14 @@ test("simple a to b test", () => {
 		connections: [
 			{
 				name: "a-to-b",
-				pointsToConnect: [{ x: 0, y: 0, layer: "1" }],
+				pointsToConnect: [
+					{ x: 0, y: 0, layer: "1" },
+					{
+						x: 10,
+						y: 10,
+						layer: "1",
+					},
+				],
 			},
 		],
 		obstacles: [],
