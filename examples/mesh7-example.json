@@ -1,0 +1,7767 @@
+{
+  "nodes": [
+    {
+      "x": 175,
+      "y": 75,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "containsObstacle": false
+    },
+    {
+      "x": 325,
+      "y": 75,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "containsObstacle": false
+    },
+    {
+      "x": 137.5,
+      "y": 187.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 193.75,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 231.25,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 193.75,
+      "y": 206.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 221.875,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 240.625,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 137.5,
+      "y": 262.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 193.75,
+      "y": 243.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 217.1875,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 226.5625,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 235.9375,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 245.3125,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 193.75,
+      "y": 281.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 231.25,
+      "y": 281.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 268.75,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 306.25,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 259.375,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 278.125,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 296.875,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 315.625,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 315.625,
+      "y": 215.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 362.5,
+      "y": 187.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 254.6875,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 264.0625,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 273.4375,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 282.8125,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 315.625,
+      "y": 234.375,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 292.1875,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 301.5625,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 315.625,
+      "y": 253.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 268.75,
+      "y": 281.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 306.25,
+      "y": 281.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 362.5,
+      "y": 262.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 475,
+      "y": 75,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "containsObstacle": false
+    },
+    {
+      "x": 568.75,
+      "y": 18.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 606.25,
+      "y": 18.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 568.75,
+      "y": 56.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 592.1875,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 601.5625,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 592.1875,
+      "y": 51.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 610.9375,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 620.3125,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 592.1875,
+      "y": 60.9375,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 592.1875,
+      "y": 70.3125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 643.75,
+      "y": 18.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 681.25,
+      "y": 18.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 629.6875,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 639.0625,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 648.4375,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 657.8125,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 667.1875,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 676.5625,
+      "y": 42.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 676.5625,
+      "y": 51.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 690.625,
+      "y": 46.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 676.5625,
+      "y": 60.9375,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 676.5625,
+      "y": 70.3125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 690.625,
+      "y": 65.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 568.75,
+      "y": 93.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 592.1875,
+      "y": 79.6875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 592.1875,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 601.5625,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 610.9375,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 620.3125,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 596.875,
+      "y": 103.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 615.625,
+      "y": 103.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 568.75,
+      "y": 131.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 606.25,
+      "y": 131.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 629.6875,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 639.0625,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 648.4375,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 657.8125,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 634.375,
+      "y": 103.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 653.125,
+      "y": 103.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 676.5625,
+      "y": 79.6875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 667.1875,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 676.5625,
+      "y": 89.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 690.625,
+      "y": 84.375,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 671.875,
+      "y": 103.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 690.625,
+      "y": 103.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 643.75,
+      "y": 131.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 681.25,
+      "y": 131.25,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 437.5,
+      "y": 187.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 493.75,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 531.25,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 484.375,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 503.125,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 484.375,
+      "y": 215.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 210.9375,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 220.3125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 521.875,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 540.625,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 437.5,
+      "y": 262.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 484.375,
+      "y": 234.375,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 229.6875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 239.0625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 484.375,
+      "y": 253.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 248.4375,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 257.8125,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 484.375,
+      "y": 271.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 267.1875,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 498.4375,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 507.8125,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 484.375,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 503.125,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 517.1875,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 526.5625,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 535.9375,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 545.3125,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 521.875,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 540.625,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 568.75,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 606.25,
+      "y": 168.75,
+      "width": 37.5,
+      "height": 37.5,
+      "level": 4,
+      "containsObstacle": false
+    },
+    {
+      "x": 559.375,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 578.125,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 596.875,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 615.625,
+      "y": 196.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 615.625,
+      "y": 215.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 662.5,
+      "y": 187.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 615.625,
+      "y": 234.375,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 615.625,
+      "y": 253.125,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 554.6875,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 564.0625,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 573.4375,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 582.8125,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 559.375,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 578.125,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 592.1875,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 601.5625,
+      "y": 276.5625,
+      "width": 9.375,
+      "height": 9.375,
+      "level": 6,
+      "containsObstacle": false
+    },
+    {
+      "x": 615.625,
+      "y": 271.875,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 596.875,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 615.625,
+      "y": 290.625,
+      "width": 18.75,
+      "height": 18.75,
+      "level": 5,
+      "containsObstacle": false
+    },
+    {
+      "x": 662.5,
+      "y": 262.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "containsObstacle": false
+    },
+    {
+      "x": 250,
+      "y": 450,
+      "width": 300,
+      "height": 300,
+      "level": 1,
+      "containsObstacle": false
+    },
+    {
+      "x": 550,
+      "y": 450,
+      "width": 300,
+      "height": 300,
+      "level": 1,
+      "containsObstacle": false
+    }
+  ],
+  "edges": [
+    {
+      "from": {
+        "x": 175,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 175,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 137.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 175,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 175,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 175,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 306.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 137.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 137.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 206.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 137.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 137.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 137.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 243.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 206.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 221.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 206.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 221.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 240.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 259.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 206.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 221.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 206.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 137.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 206.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 243.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 221.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 240.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 240.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 240.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 259.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 137.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 243.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 137.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 137.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 243.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 217.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 243.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 243.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 217.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 226.5625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 217.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 193.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 217.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 226.5625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 235.9375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 226.5625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 235.9375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 245.3125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 235.9375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 245.3125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 245.3125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 254.6875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 245.3125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 193.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 254.6875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 231.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 306.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 259.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 278.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 268.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 296.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 306.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 278.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 306.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 296.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 306.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 306.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 259.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 278.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 278.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 296.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 296.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 296.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 254.6875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 264.0625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 254.6875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 264.0625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 273.4375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 264.0625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 273.4375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 282.8125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 273.4375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 282.8125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 292.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 282.8125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 282.8125,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 306.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 292.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 301.5625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 292.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 292.1875,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 306.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 301.5625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 315.625,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 301.5625,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 306.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 306.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 315.625,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 306.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 268.75,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 306.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 306.25,
+        "y": 281.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 362.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 493.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 601.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 610.9375,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 620.3125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 629.6875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 60.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 56.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 601.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 610.9375,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 60.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 610.9375,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 620.3125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 620.3125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 620.3125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 629.6875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 60.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 681.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 629.6875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 639.0625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 648.4375,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 657.8125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 667.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 681.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 657.8125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 681.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 667.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 681.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 681.25,
+        "y": 18.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 46.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 629.6875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 639.0625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 639.0625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 648.4375,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 648.4375,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 657.8125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 657.8125,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 667.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 667.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 667.1875,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 42.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 46.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 46.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 60.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 51.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 65.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 690.625,
+        "y": 46.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 60.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 690.625,
+        "y": 46.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 65.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 60.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 60.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 65.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 65.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 70.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 84.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 690.625,
+        "y": 65.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 690.625,
+        "y": 65.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 84.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 93.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 601.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 601.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 610.9375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 610.9375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 620.3125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 610.9375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 610.9375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 620.3125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 620.3125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 629.6875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 620.3125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 596.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 596.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 596.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 629.6875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 629.6875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 639.0625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 629.6875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 639.0625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 648.4375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 639.0625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 639.0625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 648.4375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 657.8125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 648.4375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 648.4375,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 657.8125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 657.8125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 667.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 657.8125,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 634.375,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 667.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 653.125,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 681.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 667.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 79.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 84.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 667.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 676.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 667.1875,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 84.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 676.5625,
+        "y": 89.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 690.625,
+        "y": 84.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 690.625,
+        "y": 84.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 690.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 671.875,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 681.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 690.625,
+        "y": 103.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 681.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 681.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 643.75,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 681.25,
+        "y": 131.25,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 493.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 493.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 493.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 493.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 503.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 493.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 503.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 540.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 531.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 503.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 210.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 503.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 503.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 210.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 503.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 210.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 220.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 229.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 210.9375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 220.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 220.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 220.3125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 229.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 521.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 540.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 540.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 540.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 437.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 229.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 239.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 248.4375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 229.6875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 239.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 239.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 239.0625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 248.4375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 248.4375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 267.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 248.4375,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 257.8125,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 267.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 267.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 503.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 267.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 498.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 267.1875,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 507.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 507.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 484.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 498.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 503.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 507.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 503.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 507.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 517.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 507.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 503.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 484.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 503.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 517.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 503.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 503.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 517.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 526.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 517.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 526.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 535.9375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 526.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 526.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 540.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 535.9375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 545.3125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 535.9375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 521.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 535.9375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 540.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 545.3125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 540.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 545.3125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 554.6875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 545.3125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 521.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 540.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 521.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 540.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 554.6875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 540.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 540.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 578.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 568.75,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 578.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 606.25,
+        "y": 168.75,
+        "width": 37.5,
+        "height": 37.5,
+        "level": 4,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 559.375,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 578.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 578.125,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 596.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 596.875,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 196.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 215.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 662.5,
+        "y": 187.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 234.375,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 253.125,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 554.6875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 564.0625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 554.6875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 564.0625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 573.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 564.0625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 564.0625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 578.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 573.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 582.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 573.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 559.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 573.4375,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 578.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 582.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 578.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 582.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 582.8125,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 559.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 578.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 559.375,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 578.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 592.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 578.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 578.125,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 601.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 592.1875,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 601.5625,
+        "y": 276.5625,
+        "width": 9.375,
+        "height": 9.375,
+        "level": 6,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 596.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 271.875,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 596.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 615.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 596.875,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 662.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 615.625,
+        "y": 290.625,
+        "width": 18.75,
+        "height": 18.75,
+        "level": 5,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 662.5,
+        "y": 262.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    },
+    {
+      "from": {
+        "x": 250,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      },
+      "to": {
+        "x": 550,
+        "y": 450,
+        "width": 300,
+        "height": 300,
+        "level": 1,
+        "containsObstacle": false
+      }
+    }
+  ],
+  "obstacles": [
+    {
+      "center": {
+        "x": 257.5,
+        "y": 229
+      },
+      "width": 81,
+      "height": 38
+    },
+    {
+      "center": {
+        "x": 558,
+        "y": 239.5
+      },
+      "width": 92,
+      "height": 49
+    },
+    {
+      "center": {
+        "x": 636,
+        "y": 63.5
+      },
+      "width": 66,
+      "height": 31
+    }
+  ],
+  "paths": [
+    [0, 1, 2, 3],
+    [3, 4, 5, 6],
+    [7, 8, 9, 10]
+  ]
+}
