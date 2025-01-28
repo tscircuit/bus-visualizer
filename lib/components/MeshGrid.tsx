@@ -1,5 +1,6 @@
 import React from 'react';
 import { Download } from "lucide-react";
+import type {Objective} from '../solver-types';
 
 interface Point {
   x: number;
@@ -34,7 +35,7 @@ interface GraphData {
 }
 
 interface MeshGraphProps {
-  graphData: GraphData;
+  graphData: GraphData & {objectives?: Objective[]};
   onDownload?: () => void;
 }
 
@@ -46,7 +47,7 @@ const PATH_COLORS = [
 ];
 
 const MeshGraph = ({ graphData, onDownload }: MeshGraphProps) => {
-  const { nodes = [], edges = [], obstacles = [], paths = [] } = graphData;
+  const { nodes = [], edges = [], obstacles = [], paths = [], objectives = [] } = graphData;
   
   const CANVAS_WIDTH = 800;
   const CANVAS_HEIGHT = 600;
@@ -173,6 +174,33 @@ const MeshGraph = ({ graphData, onDownload }: MeshGraphProps) => {
             />
           </g>
         ))}
+
+        {objectives.map((objective, i) => {
+          const startNode = nodes.find(node => objective.start === node.id);
+          const endNode = nodes.find(node => objective.end === node.id);
+          return (
+            <g key={`objective-${i}`}>
+              <circle
+                cx={startNode?.x}
+                cy={startNode?.y} 
+                r={8}
+                fill="none"
+                stroke={PATH_COLORS[i % PATH_COLORS.length]}
+                strokeWidth="2"
+                strokeDasharray="4"
+              />
+              <circle
+                cx={endNode?.x}
+                cy={endNode?.y} 
+                r={8}
+                fill="none"
+                stroke={PATH_COLORS[i % PATH_COLORS.length]}
+                strokeWidth="2"
+                strokeDasharray="4"
+              />
+            </g>
+          )
+        })}
       </svg>
     </div>
   );

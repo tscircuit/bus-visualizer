@@ -12,17 +12,20 @@ const problem: Problem = {
   objectives: [
     {
       start: getClosestNode(solver1Graph, { x: 0, y: 200}),
-      end: getClosestNode(solver1Graph, { x: 800, y: 200 })
+      end: getClosestNode(solver1Graph, { x: 600, y: 200 })
     }
   ]
 };
-
 const objectiveSolutions = solveMultiObjective(problem, solver1Graph);
 
 export default () => {
   return <MeshGrid graphData={
     {
       ...solver1Graph,
+      objectives: problem.objectives.map(o => ({ 
+        start: o.start.id,
+        end: o.end.id
+      })),
       paths: convertObjectiveSolutionsToPaths(solver1Graph, objectiveSolutions)
     } as any
   } />;
