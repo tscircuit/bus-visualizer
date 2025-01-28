@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Download } from "lucide-react";
+import {idNodes} from '../lib/idNodes';
 
 interface Point {
   x: number;
@@ -13,6 +14,7 @@ interface Rectangle {
 }
 
 interface Node {
+  id: string
   x: number;
   y: number;
   width: number;
@@ -143,7 +145,8 @@ const MeshGraph = () => {
   };
   
   useEffect(() => {
-    const initialNodes = generateNodes(CANVAS_WIDTH/2, CANVAS_HEIGHT/2, INITIAL_GRID_SIZE, INITIAL_GRID_SIZE);
+    const initialNodes = generateNodes(CANVAS_WIDTH/2, CANVAS_HEIGHT/2, INITIAL_GRID_SIZE, INITIAL_GRID_SIZE)
+    .map((n, i) => ({...n, id: i.toString()}))
     setNodes(initialNodes);
     setEdges(generateEdges(initialNodes));
   }, [obstacles]);
