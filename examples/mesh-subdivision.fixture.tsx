@@ -10,7 +10,8 @@ const MeshGraph = () => {
   // Constants for the visualization
   const CANVAS_WIDTH = 800;
   const CANVAS_HEIGHT = 600;
-  const INITIAL_GRID_SIZE = 200;
+  const INITIAL_GRID_SIZE = 600;
+  const MAX_LEVEL = 6;
   
   // Check if a point is inside a rectangle
   const isPointInRect = (px, py, rect) => {
@@ -48,7 +49,7 @@ const MeshGraph = () => {
     const nodeRect = { center: { x, y }, width, height };
     const hasObstacle = obstacles.some(obstacle => doRectsOverlap(nodeRect, obstacle));
     
-    if (hasObstacle && level < 4) {
+    if (hasObstacle && level < MAX_LEVEL) {
       // Subdivide into 4 squares
       const newWidth = width / 2;
       const newHeight = height / 2;
