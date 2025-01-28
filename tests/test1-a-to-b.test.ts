@@ -25,7 +25,16 @@ test("simple a to b test", () => {
 				],
 			},
 		],
-		obstacles: [],
+		obstacles: [
+			{
+				type: "rect",
+				layers: ["1"],
+				center: { x: 3, y: 3 },
+				width: 3,
+				height: 3,
+				connectedTo: [],
+			},
+		],
 		minTraceWidth: 0.1,
 	};
 

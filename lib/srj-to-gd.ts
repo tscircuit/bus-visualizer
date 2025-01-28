@@ -15,7 +15,7 @@ export const srjToGd = (srj: SimpleRouteJson): GraphicsObject => {
 		center: obstacle.center,
 		width: obstacle.width,
 		height: obstacle.height,
-		fill: "rgba(200, 200, 200, 0.5)",
+		fill: "rgba(200, 0, 0, 0.5)",
 		stroke: "gray",
 	}));
 

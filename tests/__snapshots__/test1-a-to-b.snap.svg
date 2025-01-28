@@ -5,6 +5,7 @@
   <g>
     <circle data-type="point" data-label="a-to-b" data-x="10" data-y="10" cx="600" cy="40" r="3" fill="blue" /><text x="605" y="35" font-family="sans-serif" font-size="12">a-to-b</text>
   </g>
+  <rect data-type="rect" data-label="" data-x="3" data-y="3" x="124" y="348" width="168" height="168" fill="rgba(200, 0, 0, 0.5)" stroke="gray" />
   <g id="crosshair" style="display: none">
     <line id="crosshair-h" y1="0" y2="640" stroke="#666" stroke-width="0.5" />
     <line id="crosshair-v" x1="0" x2="640" stroke="#666" stroke-width="0.5" /><text id="coordinates" font-family="monospace" font-size="12" fill="#666"></text>
