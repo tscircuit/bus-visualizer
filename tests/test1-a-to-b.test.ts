@@ -36,6 +36,42 @@ test("simple a to b test", () => {
 			},
 		],
 		minTraceWidth: 0.1,
+		traces: [
+			{
+				type: "pcb_trace",
+				pcb_trace_id: "trace1",
+				route: [
+					{
+						route_type: "wire",
+						x: 0,
+						y: 0,
+						width: 0.1,
+						layer: "1",
+					},
+					{
+						route_type: "wire",
+						x: 0,
+						y: 5,
+						width: 0.1,
+						layer: "1",
+					},
+					{
+						route_type: "wire",
+						x: 6,
+						y: 5,
+						width: 0.1,
+						layer: "1",
+					},
+					{
+						route_type: "wire",
+						x: 10,
+						y: 10,
+						width: 0.1,
+						layer: "1",
+					},
+				],
+			},
+		],
 	};
 
 	expect(getSvgFromGraphicsObject(srjToGd(problem))).toMatchSvgSnapshot(
