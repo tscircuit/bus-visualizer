@@ -1,18 +1,22 @@
 {
-  "name": "bus-visualizer",
+  "name": "ny-algorithm",
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "cosmos"
+    "start": "cosmos",
+    "build": "cosmos-export",
+    "vercel-build": "bun run build"
   },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
     "bun-match-svg": "^0.0.9",
     "graphics-debug": "^0.0.5",
     "react-cosmos": "^6.2.3",
-    "react-cosmos-plugin-vite": "^6.2.0"
+    "react-cosmos-plugin-vite": "^6.2.0",
+    "vite": "^6.0.11"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
