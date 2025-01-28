@@ -21,6 +21,10 @@ const problem: Problem = {
       start: getClosestNode(solver1Graph, { x: 450, y: 0}),
       end: getClosestNode(solver1Graph, { x: 500, y: 800 })
     },
+    {
+      start: getClosestNode(solver1Graph, { x: 300, y: 200}),
+      end: getClosestNode(solver1Graph, { x: 600, y: 800 })
+    },
     
   ]
 };

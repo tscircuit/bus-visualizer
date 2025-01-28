@@ -3,15 +3,23 @@ import { convertObjectiveSolutionsToPaths } from '../lib/convertObjectiveSolutio
 import { getClosestNode } from '../lib/getClosestNode'
 import type { GraphData, Problem } from '../lib/solver-types'
 import { solveMultiObjective } from '../lib/solvers/solver2'
-import solver2GraphRaw from './solver2-graph.json'
+import solver2GraphRaw from './solver1-narrow-graph.json'
 
 const solver2Graph = solver2GraphRaw as unknown as GraphData
 
 const problem: Problem = {
   objectives: [
     {
-      start: getClosestNode(solver2Graph, { x: 0, y: 200 }),
-      end: getClosestNode(solver2Graph, { x: 600, y: 200 }),
+      start: getClosestNode(solver2Graph, { x: 300, y: 0}),
+      end: getClosestNode(solver2Graph, { x: 600, y: 800 })
+    },
+    {
+      start: getClosestNode(solver2Graph, { x: 400, y: 0}),
+      end: getClosestNode(solver2Graph, { x: 600, y: 800 })
+    },
+    {
+      start: getClosestNode(solver2Graph, { x: 450, y: 0}),
+      end: getClosestNode(solver2Graph, { x: 500, y: 800 })
     },
   ],
 }

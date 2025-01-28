@@ -124,7 +124,7 @@ function solveMultiObjective(problem: Problem, graph: GraphData): {
   // Initialize capacity map
   const capacityMap = new Map<string, number>();
   graph.nodes.forEach(node => {
-    capacityMap.set(node.id, node.rc);
+    capacityMap.set(node.id, node.rc+1);
   });
 
   const solutions: ObjectiveSolution[] = [];
