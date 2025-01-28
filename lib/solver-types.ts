@@ -23,8 +23,15 @@ export interface Edge {
   to: Node;
 }
 
+export type NodeId = string;
+export interface Objective {
+  start: NodeId;
+  end: NodeId;
+}
+
 export interface GraphData {
   nodes: Node[];
   edges: Edge[];
+  objectives?: Array<Objective>
   obstacles?: Obstacle[];
 }
