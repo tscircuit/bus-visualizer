@@ -26,6 +26,16 @@ export interface Edge {
   to: Node;
 }
 
+export interface BusEdge {
+  fromCapacityNode: Node
+  toCapacityNode: Node
+  enteringTraceNameCwOrder: `trace${number}`[]
+  exitingTraceNameCwOrder: `trace${number}`[]
+
+  enterPoints?: Array<{ x: number, y: number, z: number, traceName: `trace${number}` }>,
+  exitPoints?: Array<{ x: number, y: number, z: number, traceName: `trace${number}` }>,
+}
+
 export type NodeId = string;
 export interface Objective {
   start: NodeId;
