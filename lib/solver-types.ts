@@ -6,6 +6,7 @@ export interface Problem {
 
 export interface ObjectiveSolution {
   path: Array<Node>
+  pathWithEnteringAndExitPoints?: Array<NodeWithEnteringAndExitPoints>
 }
 
 export interface Node {
@@ -19,6 +20,14 @@ export interface Node {
 
   containsObstacle?: boolean;
   containsTarget?: boolean;
+}
+
+export interface NodeWithEnteringAndExitPoints extends Node {
+  pathsThroughNode: Array<{
+    x: number,
+    y:number,
+    objecticeId: string
+  }>
 }
 
 export interface Edge {
@@ -50,4 +59,5 @@ export interface GraphData {
   initialTargets?: Array<{start: { x:number,y: number }, end: { x:number,y: number } }>;
   objectives?: Array<Objective>
   obstacles?: Obstacle[];
+  objectiveSolutions?: Array<ObjectiveSolution>
 }
