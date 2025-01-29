@@ -123,7 +123,7 @@ const areNodesBordering = (node1: Node, node2: Node): boolean => {
 };
 
 export const EditableMeshGraph = ({ 
-  initialGraphData = { nodes: [], edges: [], obstacles: [], objectives: [] },
+  initialGraphData = { nodes: [], edges: [], obstacles: [], objectives: [], initialTargets: [] },
   generateNodes: customGenerateNodes,
   generateEdges: customGenerateEdges,
   onGraphChange
@@ -132,6 +132,7 @@ export const EditableMeshGraph = ({
   const [edges, setEdges] = useState<Edge[]>(initialGraphData.edges);
   const [obstacles, setObstacles] = useState<Obstacle[]>(initialGraphData.obstacles ?? []);
   const [objectives] = useState<Objective[]>(initialGraphData.objectives || []);
+  const [initialTargets, setInitialTargets] = useState<{start: { x:number,y: number }, end: { x:number,y: number }, name: string }[]>(initialGraphData.initialTargets || []);
   const [drawing, setDrawing] = useState(false);
   const [startPoint, setStartPoint] = useState<Point | null>(null);
   
@@ -157,10 +158,10 @@ export const EditableMeshGraph = ({
     setEdges(newEdges);
 
     // Set objectives for nodes near initial targets
-    if (initialGraphData.initialTargets) {
+    if (initialTargets && initialTargets.length > 0) {
       const newObjectives: Objective[] = [];
       
-      for (const target of initialGraphData.initialTargets) {
+      for (const target of initialTargets) {
         // Find nodes within INITIAL_GRID_SIZE distance of target
         const nearbyNodeStart = newNodes.find(node => {
           const dx = node.x - target.start.x;
@@ -388,7 +389,7 @@ export const EditableMeshGraph = ({
           />
         )}
 
-        {initialGraphData.initialTargets?.map((target, i) => (
+        {initialTargets?.map((target, i) => (
           <g key={`initial-target-${i}`}>
             {/* Start point X */}
             <line 
