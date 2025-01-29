@@ -202,7 +202,7 @@ export const EditableMeshGraph = ({
 
   useEffect(() => {
     generateGraph();
-  }, [obstacles, customGenerateNodes, customGenerateEdges]);
+  }, [obstacles, initialTargets, customGenerateNodes, customGenerateEdges]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     const rect = e.currentTarget.getBoundingClientRect();
