@@ -7,8 +7,6 @@ const generateNodes = (graphData: GraphData, { x, y, width, height, level = 0 }:
   const hasObstacle = graphData.obstacles?.some(obstacle => doRectsOverlap(nodeRect, obstacle)) ?? false;
   const hasTarget = graphData.initialTargets?.some(target => isPointInRect(target.start, nodeRect) || isPointInRect(target.end, nodeRect)) ?? false;
 
-  console.log({ hasTarget })
-  
   // If we're at max level and have an obstacle (but no target), exclude the node
   if (level === MAX_LEVEL && hasObstacle && !hasTarget) {
     return [];
@@ -97,14 +95,19 @@ const areNodesBordering = (node1: Node, node2: Node): boolean => {
   const n2Right = node2.x + node2.width/2;
   const n2Top = node2.y - node2.height/2;
   const n2Bottom = node2.y + node2.height/2;
+
+  // Minimum overlap required (e.g., 1 pixel or appropriate unit)
+  const minOverlap = 1;
   
+  // For vertical borders, check horizontal distance and require minimum vertical overlap
   const shareVerticalBorder = 
     (Math.abs(n1Right - n2Left) < 1 || Math.abs(n1Left - n2Right) < 1) &&
-    !(n1Bottom < n2Top || n1Top > n2Bottom);
+    Math.min(n1Bottom, n2Bottom) - Math.max(n1Top, n2Top) >= minOverlap;
   
+  // For horizontal borders, check vertical distance and require minimum horizontal overlap
   const shareHorizontalBorder = 
     (Math.abs(n1Bottom - n2Top) < 1 || Math.abs(n1Top - n2Bottom) < 1) &&
-    !(n1Right < n2Left || n1Left > n2Right);
+    Math.min(n1Right, n2Right) - Math.max(n1Left, n2Left) >= minOverlap;
   
   return shareVerticalBorder || shareHorizontalBorder;
 };
