@@ -5,10 +5,22 @@ import type { Obstacle } from '../types';
 
 type Point = { x: number, y: number };
 
+export interface GenerateNodesParams {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  level: number;
+}
+
+export interface GenerateEdgesParams {
+  nodes: Node[];
+}
+
 interface EditableMeshGraphProps {
   initialGraphData?: GraphData;
-  generateNodes?: (x: number, y: number, width: number, height: number, level: number) => Node[];
-  generateEdges?: (nodes: Node[]) => Edge[];
+  generateNodes?: (graphData: GraphData, params: GenerateNodesParams) => Node[];
+  generateEdges?: (graphData: GraphData, params: GenerateEdgesParams) => Edge[];
   onGraphChange?: (graphData: GraphData) => void;
 }
 
@@ -18,6 +30,97 @@ const COLORS = [
   '#5c7cfa', '#339af0', '#22b8cf', '#20c997', '#f06595',
   '#51cf66', '#94d82d', '#fcc419', '#ff922b'
 ];
+
+export const MAX_LEVEL = 6;
+
+const defaultGenerateNodes = (graphData: GraphData, { x, y, width, height, level = 0 }: GenerateNodesParams): Node[] => {
+  const nodeRect = { center: { x, y }, width, height };
+  const hasObstacle = graphData.obstacles.some(obstacle => doRectsOverlap(nodeRect, obstacle));
+  
+  if (level === MAX_LEVEL && hasObstacle) {
+    return [];
+  }
+  
+  if (hasObstacle && level < MAX_LEVEL) {
+    const newWidth = width / 2;
+    const newHeight = height / 2;
+    
+    const childNodes = [
+      defaultGenerateNodes(graphData, { x: x - newWidth/2, y: y - newHeight/2, width: newWidth, height: newHeight, level: level + 1 }),
+      defaultGenerateNodes(graphData, { x: x + newWidth/2, y: y - newHeight/2, width: newWidth, height: newHeight, level: level + 1 }),
+      defaultGenerateNodes(graphData, { x: x - newWidth/2, y: y + newHeight/2, width: newWidth, height: newHeight, level: level + 1 }),
+      defaultGenerateNodes(graphData, { x: x + newWidth/2, y: y + newHeight/2, width: newWidth, height: newHeight, level: level + 1 })
+    ];
+    
+    return childNodes.flat().filter(child => !child.containsObstacle);
+  }
+  
+  const node: Node = {
+    id: `${x}-${y}-${level}`,
+    x,
+    y,
+    width,
+    height,
+    level,
+    rc: (MAX_LEVEL - level + 1)**2,
+    containsObstacle: hasObstacle
+  };
+  
+  return hasObstacle ? [] : [node];
+};
+
+const doRectsOverlap = (rect1: Obstacle, rect2: Obstacle): boolean => {
+  const r1HalfWidth = rect1.width / 2;
+  const r1HalfHeight = rect1.height / 2;
+  const r2HalfWidth = rect2.width / 2;
+  const r2HalfHeight = rect2.height / 2;
+  
+  return Math.abs(rect1.center.x - rect2.center.x) < (r1HalfWidth + r2HalfWidth) &&
+         Math.abs(rect1.center.y - rect2.center.y) < (r1HalfHeight + r2HalfHeight);
+};
+
+const defaultGenerateEdges = (graphData: GraphData, { nodes }: GenerateEdgesParams): Edge[] => {
+  const edges: Edge[] = [];
+  const processed = new Set();
+
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i + 1; j < nodes.length; j++) {
+      const node1 = nodes[i];
+      const node2 = nodes[j];
+      
+      if (node1.containsObstacle || node2.containsObstacle) continue;
+      
+      const connectionKey = `${node1.x},${node1.y}-${node2.x},${node2.y}`;
+      if (!processed.has(connectionKey) && areNodesBordering(node1, node2)) {
+        edges.push({ from: node1, to: node2 });
+        processed.add(connectionKey);
+      }
+    }
+  }
+  return edges;
+};
+
+const areNodesBordering = (node1: Node, node2: Node): boolean => {
+  const n1Left = node1.x - node1.width/2;
+  const n1Right = node1.x + node1.width/2;
+  const n1Top = node1.y - node1.height/2;
+  const n1Bottom = node1.y + node1.height/2;
+  
+  const n2Left = node2.x - node2.width/2;
+  const n2Right = node2.x + node2.width/2;
+  const n2Top = node2.y - node2.height/2;
+  const n2Bottom = node2.y + node2.height/2;
+  
+  const shareVerticalBorder = 
+    (Math.abs(n1Right - n2Left) < 1 || Math.abs(n1Left - n2Right) < 1) &&
+    !(n1Bottom < n2Top || n1Top > n2Bottom);
+  
+  const shareHorizontalBorder = 
+    (Math.abs(n1Bottom - n2Top) < 1 || Math.abs(n1Top - n2Bottom) < 1) &&
+    !(n1Right < n2Left || n1Left > n2Right);
+  
+  return shareVerticalBorder || shareHorizontalBorder;
+};
 
 export const EditableMeshGraph = ({ 
   initialGraphData = { nodes: [], edges: [], obstacles: [], objectives: [] },
@@ -35,103 +138,20 @@ export const EditableMeshGraph = ({
   const CANVAS_WIDTH = 800;
   const CANVAS_HEIGHT = 600;
   const INITIAL_GRID_SIZE = 600;
-  const MAX_LEVEL = 6;
-
-  const defaultGenerateNodes = (x: number, y: number, width: number, height: number, level = 0): Node[] => {
-    const nodeRect = { center: { x, y }, width, height };
-    const hasObstacle = obstacles.some(obstacle => doRectsOverlap(nodeRect, obstacle));
-    
-    if (level === MAX_LEVEL && hasObstacle) {
-      return [];
-    }
-    
-    if (hasObstacle && level < MAX_LEVEL) {
-      const newWidth = width / 2;
-      const newHeight = height / 2;
-      
-      const childNodes = [
-        defaultGenerateNodes(x - newWidth/2, y - newHeight/2, newWidth, newHeight, level + 1),
-        defaultGenerateNodes(x + newWidth/2, y - newHeight/2, newWidth, newHeight, level + 1),
-        defaultGenerateNodes(x - newWidth/2, y + newHeight/2, newWidth, newHeight, level + 1),
-        defaultGenerateNodes(x + newWidth/2, y + newHeight/2, newWidth, newHeight, level + 1)
-      ];
-      
-      return childNodes.flat().filter(child => !child.containsObstacle);
-    }
-    
-    const node: Node = {
-      id: `${x}-${y}-${level}`,
-      x,
-      y,
-      width,
-      height,
-      level,
-      rc: (MAX_LEVEL - level + 1)**2,
-      containsObstacle: hasObstacle
-    };
-    
-    return hasObstacle ? [] : [node];
-  };
-
-  const doRectsOverlap = (rect1: Obstacle, rect2: Obstacle): boolean => {
-    const r1HalfWidth = rect1.width / 2;
-    const r1HalfHeight = rect1.height / 2;
-    const r2HalfWidth = rect2.width / 2;
-    const r2HalfHeight = rect2.height / 2;
-    
-    return Math.abs(rect1.center.x - rect2.center.x) < (r1HalfWidth + r2HalfWidth) &&
-           Math.abs(rect1.center.y - rect2.center.y) < (r1HalfHeight + r2HalfHeight);
-  };
-
-  const defaultGenerateEdges = (nodes: Node[]): Edge[] => {
-    const edges: Edge[] = [];
-    const processed = new Set();
-
-    for (let i = 0; i < nodes.length; i++) {
-      for (let j = i + 1; j < nodes.length; j++) {
-        const node1 = nodes[i];
-        const node2 = nodes[j];
-        
-        if (node1.containsObstacle || node2.containsObstacle) continue;
-        
-        const connectionKey = `${node1.x},${node1.y}-${node2.x},${node2.y}`;
-        if (!processed.has(connectionKey) && areNodesBordering(node1, node2)) {
-          edges.push({ from: node1, to: node2 });
-          processed.add(connectionKey);
-        }
-      }
-    }
-    return edges;
-  };
-
-  const areNodesBordering = (node1: Node, node2: Node): boolean => {
-    const n1Left = node1.x - node1.width/2;
-    const n1Right = node1.x + node1.width/2;
-    const n1Top = node1.y - node1.height/2;
-    const n1Bottom = node1.y + node1.height/2;
-    
-    const n2Left = node2.x - node2.width/2;
-    const n2Right = node2.x + node2.width/2;
-    const n2Top = node2.y - node2.height/2;
-    const n2Bottom = node2.y + node2.height/2;
-    
-    const shareVerticalBorder = 
-      (Math.abs(n1Right - n2Left) < 1 || Math.abs(n1Left - n2Right) < 1) &&
-      !(n1Bottom < n2Top || n1Top > n2Bottom);
-    
-    const shareHorizontalBorder = 
-      (Math.abs(n1Bottom - n2Top) < 1 || Math.abs(n1Top - n2Bottom) < 1) &&
-      !(n1Right < n2Left || n1Left > n2Right);
-    
-    return shareVerticalBorder || shareHorizontalBorder;
-  };
 
   const generateGraph = () => {
     const genNodes = customGenerateNodes || defaultGenerateNodes;
     const genEdges = customGenerateEdges || defaultGenerateEdges;
 
-    const newNodes = genNodes(CANVAS_WIDTH/2, CANVAS_HEIGHT/2, INITIAL_GRID_SIZE, INITIAL_GRID_SIZE, 0);
-    const newEdges = genEdges(newNodes);
+    const graphData = { nodes, edges, obstacles, objectives };
+    const newNodes = genNodes(graphData, {
+      x: CANVAS_WIDTH/2,
+      y: CANVAS_HEIGHT/2,
+      width: INITIAL_GRID_SIZE,
+      height: INITIAL_GRID_SIZE,
+      level: 0
+    });
+    const newEdges = genEdges(graphData, { nodes: newNodes });
 
     setNodes(newNodes);
     setEdges(newEdges);
@@ -174,7 +194,14 @@ export const EditableMeshGraph = ({
     
     const tempObstacle = { center, width, height };
     const genNodes = customGenerateNodes || defaultGenerateNodes;
-    const newNodes = genNodes(CANVAS_WIDTH/2, CANVAS_HEIGHT/2, INITIAL_GRID_SIZE, INITIAL_GRID_SIZE, 0);
+    const graphData = { nodes, edges, obstacles, objectives };
+    const newNodes = genNodes(graphData, {
+      x: CANVAS_WIDTH/2,
+      y: CANVAS_HEIGHT/2,
+      width: INITIAL_GRID_SIZE,
+      height: INITIAL_GRID_SIZE,
+      level: 0
+    });
     setNodes(newNodes);
   };
   
@@ -275,6 +302,7 @@ export const EditableMeshGraph = ({
               height={node.height}
               fill="none"
               stroke={`rgba(173, 181, 189, ${0.2 + node.level * 0.2})`}
+              opacity={0.2}
               strokeWidth="1"
             />
             <circle
