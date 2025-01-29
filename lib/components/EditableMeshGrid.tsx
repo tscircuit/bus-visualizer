@@ -143,7 +143,7 @@ export const EditableMeshGraph = ({
     const genNodes = customGenerateNodes || defaultGenerateNodes;
     const genEdges = customGenerateEdges || defaultGenerateEdges;
 
-    const graphData = { nodes, edges, obstacles, objectives };
+    const graphData = { nodes, edges, obstacles, objectives, initialTargets: initialGraphData.initialTargets };
     const newNodes = genNodes(graphData, {
       x: CANVAS_WIDTH/2,
       y: CANVAS_HEIGHT/2,
@@ -155,6 +155,37 @@ export const EditableMeshGraph = ({
 
     setNodes(newNodes);
     setEdges(newEdges);
+
+    // Set objectives for nodes near initial targets
+    if (initialGraphData.initialTargets) {
+      const newObjectives: Objective[] = [];
+      
+      for (const target of initialGraphData.initialTargets) {
+        // Find nodes within INITIAL_GRID_SIZE distance of target
+        const nearbyNodeStart = newNodes.find(node => {
+          const dx = node.x - target.start.x;
+          const dy = node.y - target.start.y;
+          return Math.sqrt(dx*dx + dy*dy) < INITIAL_GRID_SIZE / (2**(MAX_LEVEL));
+        });
+
+        const nearbyNodeEnd = newNodes.find(node => {
+          const dx = node.x - target.end.x;
+          const dy = node.y - target.end.y;
+          return Math.sqrt(dx*dx + dy*dy) < INITIAL_GRID_SIZE / (2**(MAX_LEVEL));
+        });
+
+        if (!nearbyNodeStart || !nearbyNodeEnd) continue;
+
+        // Create objectives between all pairs of nearby nodes
+        newObjectives.push({
+          start: nearbyNodeStart.id,
+          end: nearbyNodeEnd.id
+        });
+      }
+
+      // Update objectives state
+      objectives.splice(0, objectives.length, ...newObjectives);
+    }
 
     if (onGraphChange) {
       onGraphChange({
@@ -356,6 +387,46 @@ export const EditableMeshGraph = ({
             strokeDasharray="4"
           />
         )}
+
+        {initialGraphData.initialTargets?.map((target, i) => (
+          <g key={`initial-target-${i}`}>
+            {/* Start point X */}
+            <line 
+              x1={target.start.x - 4}
+              y1={target.start.y - 4}
+              x2={target.start.x + 4} 
+              y2={target.start.y + 4}
+              stroke="#dc3545"
+              strokeWidth="2"
+            />
+            <line
+              x1={target.start.x - 4}
+              y1={target.start.y + 4}
+              x2={target.start.x + 4}
+              y2={target.start.y - 4}
+              stroke="#dc3545" 
+              strokeWidth="2"
+            />
+            
+            {/* End point X */}
+            <line
+              x1={target.end.x - 4}
+              y1={target.end.y - 4}
+              x2={target.end.x + 4}
+              y2={target.end.y + 4}
+              stroke="#dc3545"
+              strokeWidth="2"
+            />
+            <line
+              x1={target.end.x - 4}
+              y1={target.end.y + 4}
+              x2={target.end.x + 4}
+              y2={target.end.y - 4}
+              stroke="#dc3545"
+              strokeWidth="2"
+            />
+          </g>
+        ))}
       </svg>
     </div>
   );

@@ -16,6 +16,9 @@ export interface Node {
   height: number;
   /* capacity of the node, how many paths can go through it */
   rc: number
+
+  containsObstacle?: boolean;
+  containsTarget?: boolean;
 }
 
 export interface Edge {
@@ -32,6 +35,7 @@ export interface Objective {
 export interface GraphData {
   nodes: Node[];
   edges: Edge[];
+  initialTargets?: Array<{start: { x:number,y: number }, end: { x:number,y: number } }>;
   objectives?: Array<Objective>
   obstacles?: Obstacle[];
 }
