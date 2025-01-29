@@ -133,8 +133,10 @@ export const EditableMeshGraph = ({
   const [obstacles, setObstacles] = useState<Obstacle[]>(initialGraphData.obstacles ?? []);
   const [objectives] = useState<Objective[]>(initialGraphData.objectives || []);
   const [initialTargets, setInitialTargets] = useState<{start: { x:number,y: number }, end: { x:number,y: number }, name: string }[]>(initialGraphData.initialTargets || []);
+  const [mode, setMode] = useState<'draw' | 'target'>('draw');
   const [drawing, setDrawing] = useState(false);
   const [startPoint, setStartPoint] = useState<Point | null>(null);
+  const [targetStart, setTargetStart] = useState<Point | null>(null);
   
   const CANVAS_WIDTH = 800;
   const CANVAS_HEIGHT = 600;
@@ -144,7 +146,7 @@ export const EditableMeshGraph = ({
     const genNodes = customGenerateNodes || defaultGenerateNodes;
     const genEdges = customGenerateEdges || defaultGenerateEdges;
 
-    const graphData = { nodes, edges, obstacles, objectives, initialTargets: initialGraphData.initialTargets };
+    const graphData = { nodes, edges, obstacles, objectives, initialTargets: initialTargets };
     const newNodes = genNodes(graphData, {
       x: CANVAS_WIDTH/2,
       y: CANVAS_HEIGHT/2,
@@ -152,7 +154,7 @@ export const EditableMeshGraph = ({
       height: INITIAL_GRID_SIZE,
       level: 0
     });
-    const newEdges = genEdges(graphData, { nodes: newNodes });
+    const newEdges = genEdges(graphData, { nodes: newNodes }).map((e, i) => ({ ...e, id: `edge${i}` }));
 
     setNodes(newNodes);
     setEdges(newEdges);
@@ -193,7 +195,7 @@ export const EditableMeshGraph = ({
         nodes: newNodes,
         edges: newEdges,
         obstacles,
-        objectives
+        objectives: objectives.map((o, i) => ({ ...o, id: `objective${i}` }))
       });
     }
   };
@@ -206,12 +208,29 @@ export const EditableMeshGraph = ({
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    setDrawing(true);
-    setStartPoint({ x, y });
+    
+    if (mode === 'draw') {
+      setDrawing(true);
+      setStartPoint({ x, y });
+    } else if (mode === 'target') {
+      if (!targetStart) {
+        setTargetStart({ x, y });
+      } else {
+        // Create new target with start and end points
+        const newTarget = {
+          start: targetStart,
+          end: { x, y },
+          name: `Target ${initialTargets.length + 1}`
+        };
+        setInitialTargets([...initialTargets, newTarget]);
+        setTargetStart(null);
+        generateGraph();
+      }
+    }
   };
   
   const handleMouseMove = (e: React.MouseEvent) => {
-    if (!drawing || !startPoint) return;
+    if (mode === 'target' || !drawing || !startPoint) return;
     
     const rect = e.currentTarget.getBoundingClientRect();
     const currentX = e.clientX - rect.left;
@@ -238,7 +257,7 @@ export const EditableMeshGraph = ({
   };
   
   const handleMouseUp = (e: React.MouseEvent) => {
-    if (!drawing || !startPoint) return;
+    if (mode === 'target' || !drawing || !startPoint) return;
     
     const rect = e.currentTarget.getBoundingClientRect();
     const currentX = e.clientX - rect.left;
@@ -257,12 +276,15 @@ export const EditableMeshGraph = ({
     setStartPoint(null);
   };
 
+  const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
   const handleDownload = () => {
     const graphData: GraphData = {
       nodes,
       edges,
       obstacles,
-      objectives
+      objectives: objectives.map((o, i) => ({ ...o, id: ALPHABET[i] ?? `objective${i}` })),
+      initialTargets
     };
     
     const blob = new Blob([JSON.stringify(graphData, null, 2)], { type: 'application/json' });
@@ -279,7 +301,28 @@ export const EditableMeshGraph = ({
   return (
     <div className="w-full max-w-4xl mx-auto p-4">
       <div className="mb-4 flex justify-between items-center">
-        <p className="text-sm text-gray-600">Click and drag to draw obstacles. The mesh will automatically subdivide around them.</p>
+        <div className="flex gap-4 items-center">
+          <p className="text-sm text-gray-600">
+            {mode === 'draw' 
+              ? "Click and drag to draw obstacles. The mesh will automatically subdivide around them."
+              : "Click to set start and end points for a target path."}
+          </p>
+          <button
+            onClick={() => {
+              setMode(mode === 'draw' ? 'target' : 'draw');
+              setStartPoint(null);
+              setTargetStart(null);
+              setDrawing(false);
+            }}
+            className={`px-3 py-1 rounded ${
+              mode === 'draw' 
+                ? 'bg-blue-500 hover:bg-blue-600' 
+                : 'bg-green-500 hover:bg-green-600'
+            } text-white`}
+          >
+            {mode === 'draw' ? 'Switch to Target Mode' : 'Switch to Draw Mode'}
+          </button>
+        </div>
         <button
           onClick={handleDownload}
           className="flex items-center gap-2"
@@ -377,7 +420,7 @@ export const EditableMeshGraph = ({
           );
         })}
         
-        {drawing && startPoint && (
+        {mode === 'draw' && drawing && startPoint && (
           <rect
             x={startPoint.x}
             y={startPoint.y}
@@ -387,6 +430,36 @@ export const EditableMeshGraph = ({
             stroke="#adb5bd"
             strokeDasharray="4"
           />
+        )}
+
+        {/* Show current target start point if in target mode */}
+        {mode === 'target' && targetStart && (
+          <g>
+            <circle
+              cx={targetStart.x}
+              cy={targetStart.y}
+              r={6}
+              fill="none"
+              stroke="#22c55e"
+              strokeWidth="2"
+            />
+            <line
+              x1={targetStart.x - 6}
+              y1={targetStart.y}
+              x2={targetStart.x + 6}
+              y2={targetStart.y}
+              stroke="#22c55e"
+              strokeWidth="2"
+            />
+            <line
+              x1={targetStart.x}
+              y1={targetStart.y - 6}
+              x2={targetStart.x}
+              y2={targetStart.y + 6}
+              stroke="#22c55e"
+              strokeWidth="2"
+            />
+          </g>
         )}
 
         {initialTargets?.map((target, i) => (
