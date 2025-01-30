@@ -7,6 +7,7 @@ export interface Problem {
 export interface ObjectiveSolution {
   path: Array<Node>
   pathWithEnteringAndExitPoints?: Array<NodeWithEnteringAndExitPoints>
+  objectiveId: string
 }
 
 export interface Node {
@@ -20,6 +21,11 @@ export interface Node {
 
   containsObstacle?: boolean;
   containsTarget?: boolean;
+
+
+  ports?: Array<
+    { x: number, y: number, fromNodeId: string, objectiveId: string }
+  >
 }
 
 export interface NodeWithEnteringAndExitPoints extends Node {

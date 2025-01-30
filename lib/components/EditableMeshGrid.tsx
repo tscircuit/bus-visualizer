@@ -133,7 +133,10 @@ export const EditableMeshGraph = ({
   const [nodes, setNodes] = useState<Node[]>(initialGraphData.nodes);
   const [edges, setEdges] = useState<Edge[]>(initialGraphData.edges);
   const [obstacles, setObstacles] = useState<Obstacle[]>(initialGraphData.obstacles ?? []);
-  const [objectives] = useState<Objective[]>(initialGraphData.objectives || []);
+  const [objectives, setObjectives] = useState<Objective[]>(initialGraphData.objectives?.map((o, i) => ({
+    ...o,
+    id: ALPHABET[i] ?? `objective${i}`
+  })) || []);
   const [initialTargets, setInitialTargets] = useState<{start: { x:number,y: number }, end: { x:number,y: number }, name: string }[]>(initialGraphData.initialTargets || []);
   const [mode, setMode] = useState<'draw' | 'target'>('draw');
   const [drawing, setDrawing] = useState(false);
@@ -184,6 +187,7 @@ export const EditableMeshGraph = ({
 
         // Create objectives between all pairs of nearby nodes
         newObjectives.push({
+          id: ALPHABET[newObjectives.length] ?? `objective${newObjectives.length}`,
           start: nearbyNodeStart.id,
           end: nearbyNodeEnd.id
         });
@@ -198,7 +202,7 @@ export const EditableMeshGraph = ({
         nodes: newNodes,
         edges: newEdges,
         obstacles,
-        objectives: objectives.map((o, i) => ({ ...o, id: `objective${i}` }))
+        objectives
       });
     }
   };
@@ -308,8 +312,9 @@ export const EditableMeshGraph = ({
       nodes,
       edges,
       obstacles,
-      objectives: objectives.map((o, i) => ({ ...o, id: ALPHABET[i] ?? `objective${i}` })),
-      initialTargets
+      objectives,
+      initialTargets,
+      objectiveSolutions
     };
     
     const blob = new Blob([JSON.stringify(graphData, null, 2)], { type: 'application/json' });

@@ -135,10 +135,10 @@ function solveMultiObjective(problem: Problem, graph: GraphData): {
     const { path, attemptedPaths } = astar(objective.start, objective.end, graph, capacityMap);
     allAttemptedPaths.push(...attemptedPaths)
     if (path) {
-      solutions.push({ path });
+      solutions.push({ path, objectiveId: objective.id  });
       updateCapacity(path, capacityMap);
     } else {
-      solutions.push({ path: [] }); // Push empty path if no solution found
+      solutions.push({ path: [], objectiveId: objective.id }); // Push empty path if no solution found
     }
   }
 
