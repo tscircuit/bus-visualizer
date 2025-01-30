@@ -32,7 +32,7 @@ export const NodeSolveViz = ({ input, output }: Props) => {
   const transformOrigin = `translate(${svgWidth/2}, ${svgHeight/2})`;
   
   // Generate random colors for each unique traceId
-  const traceColors = {};
+  const traceColors: Record<string, string> = {};
   input.segmentsToConnect.forEach(({ traceId }) => {
     if (!traceColors[traceId]) {
       const hue = Object.keys(traceColors).length * (360 / input.segmentsToConnect.length);
@@ -47,9 +47,10 @@ export const NodeSolveViz = ({ input, output }: Props) => {
   });
 
   return (
-    <div className="w-full flex flex-col items-center space-y-4">
+    <div>
+    <div className="flex-1 flex items-center space-y-4">
       {/* Input Visualization */}
-      <div className="border rounded p-4 w-full">
+      <div className="border rounded p-4 flex-1">
         <h2 className="text-lg font-semibold mb-4">Input</h2>
         <svg 
           width={svgWidth} 
@@ -66,7 +67,8 @@ export const NodeSolveViz = ({ input, output }: Props) => {
               height={input.height * scale}
               fill="none"
               stroke="black"
-              strokeWidth="2"
+              opacity={0.5}
+              strokeWidth="1"
             />
             
             {/* Draw center point */}
@@ -92,8 +94,9 @@ export const NodeSolveViz = ({ input, output }: Props) => {
                     x2={s1End.x}
                     y2={s1End.y}
                     stroke={traceColors[connection.traceId]}
-                    strokeWidth="3"
-                    strokeDasharray={`${idx * 8 + 4} 4`}
+                    strokeWidth="6"
+                    strokeDashoffset={idx * 2.5}
+                    strokeDasharray={`2 6`}
                   />
                   <line
                     x1={s2Start.x}
@@ -101,8 +104,9 @@ export const NodeSolveViz = ({ input, output }: Props) => {
                     x2={s2End.x}
                     y2={s2End.y}
                     stroke={traceColors[connection.traceId]}
-                    strokeDasharray={`${idx * 8 + 4} 4`}
-                    strokeWidth="3"
+                    strokeDashoffset={idx}
+                    strokeDasharray={`2 6`}
+                    strokeWidth="6"
                   />
                 </g>
               );
@@ -113,7 +117,7 @@ export const NodeSolveViz = ({ input, output }: Props) => {
 
       {/* Output Visualization */}
       {output && (
-        <div className="border rounded p-4 w-full">
+        <div className="border rounded p-4 flex-1">
           <h2 className="text-lg font-semibold mb-4">Output</h2>
           <svg 
             width={svgWidth} 
@@ -197,8 +201,7 @@ export const NodeSolveViz = ({ input, output }: Props) => {
           </svg>
         </div>
       )}
-      
-      {/* Legend */}
+    </div>
       <div className="border rounded p-4 flex gap-4 flex-wrap">
         {input.segmentsToConnect.map(({ traceId }) => (
           <div key={traceId} className="flex items-center gap-2">
