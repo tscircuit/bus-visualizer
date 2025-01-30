@@ -1,5 +1,7 @@
 import { EditableMeshGraph, type GenerateEdgesParams, type GenerateNodesParams, MAX_LEVEL } from "../lib/components/EditableMeshGrid";
+import {getClosestNode} from "../lib/getClosestNode";
 import type {GraphData, Node, Edge} from "../lib/solver-types";
+import {solveMultiObjective} from "../lib/solvers/solver1";
 import type {Obstacle} from "../lib/types";
 
 const generateNodes = (graphData: GraphData, { x, y, width, height, level = 0 }: GenerateNodesParams): Node[] => {
@@ -112,6 +114,8 @@ const areNodesBordering = (node1: Node, node2: Node): boolean => {
   return shareVerticalBorder || shareHorizontalBorder;
 };
 
+const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
 export default () => {
   const initialTargets = [{start: { x: 150, y: 50 }, end: { x: 450, y: 450 }}];
   return (
@@ -120,6 +124,22 @@ export default () => {
       obstacles: [],
       nodes: [],
       edges: []
-    }} generateNodes={generateNodes} generateEdges={generateEdges} />
+    }} generateNodes={generateNodes} generateEdges={generateEdges}
+      solveCapacity={(graphData) => {
+        const { objectiveSolutions, attemptedPaths } = solveMultiObjective({
+           objectives: graphData.initialTargets?.map((t, i) => ({
+            start: getClosestNode(graphData, t.start),
+            end: getClosestNode(graphData, t.end),
+            id: ALPHABET[i] ?? `objective${i}`
+           })) ?? []
+        }, graphData);
+        
+        return {
+          ...graphData,
+          objectiveSolutions
+        }
+      }}
+    
+    />
   )
 }

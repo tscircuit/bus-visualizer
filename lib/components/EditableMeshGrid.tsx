@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Download } from "lucide-react";
-import type { Objective, GraphData, Node, Edge } from '../solver-types';
+import type { Objective, GraphData, Node, Edge, ObjectiveSolution } from '../solver-types';
 import type { Obstacle } from '../types';
 
 type Point = { x: number, y: number };
@@ -22,6 +22,7 @@ interface EditableMeshGraphProps {
   generateNodes?: (graphData: GraphData, params: GenerateNodesParams) => Node[];
   generateEdges?: (graphData: GraphData, params: GenerateEdgesParams) => Edge[];
   onGraphChange?: (graphData: GraphData) => void;
+  solveCapacity?: (graphData: GraphData) => GraphData;
 }
 
 // Color palette for paths and objectives
@@ -126,6 +127,7 @@ export const EditableMeshGraph = ({
   initialGraphData = { nodes: [], edges: [], obstacles: [], objectives: [], initialTargets: [] },
   generateNodes: customGenerateNodes,
   generateEdges: customGenerateEdges,
+  solveCapacity,
   onGraphChange
 }: EditableMeshGraphProps) => {
   const [nodes, setNodes] = useState<Node[]>(initialGraphData.nodes);
@@ -137,6 +139,7 @@ export const EditableMeshGraph = ({
   const [drawing, setDrawing] = useState(false);
   const [startPoint, setStartPoint] = useState<Point | null>(null);
   const [targetStart, setTargetStart] = useState<Point | null>(null);
+  const [objectiveSolutions, setObjectiveSolutions] = useState<ObjectiveSolution[]>(initialGraphData.objectiveSolutions || []);
   
   const CANVAS_WIDTH = 800;
   const CANVAS_HEIGHT = 600;
@@ -203,6 +206,28 @@ export const EditableMeshGraph = ({
   useEffect(() => {
     generateGraph();
   }, [obstacles, initialTargets, customGenerateNodes, customGenerateEdges]);
+
+  const PATH_OFFSET = 2;
+  const generatePathD = (path: Node[], pathIndex: number) => {
+    if (path.length < 2) return '';
+    
+    const points = path.map(node => {
+      if (!node) return null;
+      
+      // Calculate offset based on path index
+      const angle = (pathIndex * Math.PI * 2) / objectiveSolutions.length;
+      const offsetX = Math.cos(angle) * PATH_OFFSET;
+      const offsetY = Math.sin(angle) * PATH_OFFSET;
+      
+      return `${node.x + offsetX},${node.y + offsetY}`;
+    });
+    
+    // Filter out any null points
+    const validPoints = points.filter(point => point !== null);
+    if (validPoints.length < 2) return '';
+    
+    return `M ${validPoints.join(' L ')}`;
+  };
 
   const handleMouseDown = (e: React.MouseEvent) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -389,6 +414,18 @@ export const EditableMeshGraph = ({
           </g>
         ))}
 
+        {objectiveSolutions.map((objective, i) => {
+          return <path
+            key={`objective-${i}`}
+            d={generatePathD(objective.path, i)}
+            fill="none"
+            stroke={COLORS[i % COLORS.length]}
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        })}
+
         {objectives.map((objective, i) => {
           const startNode = nodes.find(node => objective.start === node.id);
           const endNode = nodes.find(node => objective.end === node.id);
@@ -502,6 +539,13 @@ export const EditableMeshGraph = ({
           </g>
         ))}
       </svg>
+      <div>
+        {solveCapacity && <button onClick={() => {
+          const graphData = { nodes, edges, obstacles, objectives, initialTargets };
+          const newGraphData = solveCapacity(graphData);
+          setObjectiveSolutions(newGraphData.objectiveSolutions!);
+        }}>Solve Capacity</button>}
+      </div>
     </div>
   );
 };
