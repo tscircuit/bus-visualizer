@@ -32,7 +32,7 @@ const COLORS = [
   '#51cf66', '#94d82d', '#fcc419', '#ff922b'
 ];
 
-export const MAX_LEVEL = 6;
+export const MAX_LEVEL = 3;
 
 const defaultGenerateNodes = (graphData: GraphData, { x, y, width, height, level = 0 }: GenerateNodesParams): Node[] => {
   const nodeRect = { center: { x, y }, width, height };

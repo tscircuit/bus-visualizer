@@ -1,0 +1,1783 @@
+{
+  "nodes": [
+    {
+      "id": "137.5-37.5-3",
+      "x": 137.5,
+      "y": 37.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": true
+    },
+    {
+      "id": "212.5-37.5-3",
+      "x": 212.5,
+      "y": 37.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "137.5-112.5-3",
+      "x": 137.5,
+      "y": 112.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "212.5-112.5-3",
+      "x": 212.5,
+      "y": 112.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "325-75-2",
+      "x": 325,
+      "y": 75,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "175-225-2",
+      "x": 175,
+      "y": 225,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "325-225-2",
+      "x": 325,
+      "y": 225,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "475-75-2",
+      "x": 475,
+      "y": 75,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "587.5-37.5-3",
+      "x": 587.5,
+      "y": 37.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "662.5-37.5-3",
+      "x": 662.5,
+      "y": 37.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "587.5-112.5-3",
+      "x": 587.5,
+      "y": 112.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": true
+    },
+    {
+      "id": "662.5-112.5-3",
+      "x": 662.5,
+      "y": 112.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "475-225-2",
+      "x": 475,
+      "y": 225,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "625-225-2",
+      "x": 625,
+      "y": 225,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "175-375-2",
+      "x": 175,
+      "y": 375,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "325-375-2",
+      "x": 325,
+      "y": 375,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "175-525-2",
+      "x": 175,
+      "y": 525,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "287.5-487.5-3",
+      "x": 287.5,
+      "y": 487.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": true
+    },
+    {
+      "id": "362.5-487.5-3",
+      "x": 362.5,
+      "y": 487.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "287.5-562.5-3",
+      "x": 287.5,
+      "y": 562.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "362.5-562.5-3",
+      "x": 362.5,
+      "y": 562.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "437.5-337.5-3",
+      "x": 437.5,
+      "y": 337.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "512.5-337.5-3",
+      "x": 512.5,
+      "y": 337.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "437.5-412.5-3",
+      "x": 437.5,
+      "y": 412.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": true
+    },
+    {
+      "id": "512.5-412.5-3",
+      "x": 512.5,
+      "y": 412.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "625-375-2",
+      "x": 625,
+      "y": 375,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "437.5-487.5-3",
+      "x": 437.5,
+      "y": 487.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": true
+    },
+    {
+      "id": "512.5-487.5-3",
+      "x": 512.5,
+      "y": 487.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "437.5-562.5-3",
+      "x": 437.5,
+      "y": 562.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "512.5-562.5-3",
+      "x": 512.5,
+      "y": 562.5,
+      "width": 75,
+      "height": 75,
+      "level": 3,
+      "rc": 1,
+      "containsObstacle": false,
+      "containsTarget": false
+    },
+    {
+      "id": "625-525-2",
+      "x": 625,
+      "y": 525,
+      "width": 150,
+      "height": 150,
+      "level": 2,
+      "rc": 4,
+      "containsObstacle": false,
+      "containsTarget": false
+    }
+  ],
+  "edges": [
+    {
+      "from": {
+        "id": "137.5-37.5-3",
+        "x": 137.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "212.5-37.5-3",
+        "x": 212.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge0"
+    },
+    {
+      "from": {
+        "id": "137.5-37.5-3",
+        "x": 137.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "137.5-112.5-3",
+        "x": 137.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge1"
+    },
+    {
+      "from": {
+        "id": "212.5-37.5-3",
+        "x": 212.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "212.5-112.5-3",
+        "x": 212.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge2"
+    },
+    {
+      "from": {
+        "id": "212.5-37.5-3",
+        "x": 212.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "325-75-2",
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge3"
+    },
+    {
+      "from": {
+        "id": "137.5-112.5-3",
+        "x": 137.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "212.5-112.5-3",
+        "x": 212.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge4"
+    },
+    {
+      "from": {
+        "id": "137.5-112.5-3",
+        "x": 137.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "175-225-2",
+        "x": 175,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge5"
+    },
+    {
+      "from": {
+        "id": "212.5-112.5-3",
+        "x": 212.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "325-75-2",
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge6"
+    },
+    {
+      "from": {
+        "id": "212.5-112.5-3",
+        "x": 212.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "175-225-2",
+        "x": 175,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge7"
+    },
+    {
+      "from": {
+        "id": "325-75-2",
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "325-225-2",
+        "x": 325,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge8"
+    },
+    {
+      "from": {
+        "id": "325-75-2",
+        "x": 325,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "475-75-2",
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge9"
+    },
+    {
+      "from": {
+        "id": "175-225-2",
+        "x": 175,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "325-225-2",
+        "x": 325,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge10"
+    },
+    {
+      "from": {
+        "id": "175-225-2",
+        "x": 175,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "175-375-2",
+        "x": 175,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge11"
+    },
+    {
+      "from": {
+        "id": "325-225-2",
+        "x": 325,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "475-225-2",
+        "x": 475,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge12"
+    },
+    {
+      "from": {
+        "id": "325-225-2",
+        "x": 325,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "325-375-2",
+        "x": 325,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge13"
+    },
+    {
+      "from": {
+        "id": "475-75-2",
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "587.5-37.5-3",
+        "x": 587.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge14"
+    },
+    {
+      "from": {
+        "id": "475-75-2",
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "587.5-112.5-3",
+        "x": 587.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge15"
+    },
+    {
+      "from": {
+        "id": "475-75-2",
+        "x": 475,
+        "y": 75,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "475-225-2",
+        "x": 475,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge16"
+    },
+    {
+      "from": {
+        "id": "587.5-37.5-3",
+        "x": 587.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "662.5-37.5-3",
+        "x": 662.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge17"
+    },
+    {
+      "from": {
+        "id": "587.5-37.5-3",
+        "x": 587.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "587.5-112.5-3",
+        "x": 587.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge18"
+    },
+    {
+      "from": {
+        "id": "662.5-37.5-3",
+        "x": 662.5,
+        "y": 37.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "662.5-112.5-3",
+        "x": 662.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge19"
+    },
+    {
+      "from": {
+        "id": "587.5-112.5-3",
+        "x": 587.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "662.5-112.5-3",
+        "x": 662.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge20"
+    },
+    {
+      "from": {
+        "id": "587.5-112.5-3",
+        "x": 587.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "625-225-2",
+        "x": 625,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge21"
+    },
+    {
+      "from": {
+        "id": "662.5-112.5-3",
+        "x": 662.5,
+        "y": 112.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-225-2",
+        "x": 625,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge22"
+    },
+    {
+      "from": {
+        "id": "475-225-2",
+        "x": 475,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-225-2",
+        "x": 625,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge23"
+    },
+    {
+      "from": {
+        "id": "475-225-2",
+        "x": 475,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "437.5-337.5-3",
+        "x": 437.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge24"
+    },
+    {
+      "from": {
+        "id": "475-225-2",
+        "x": 475,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "512.5-337.5-3",
+        "x": 512.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge25"
+    },
+    {
+      "from": {
+        "id": "625-225-2",
+        "x": 625,
+        "y": 225,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-375-2",
+        "x": 625,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge26"
+    },
+    {
+      "from": {
+        "id": "175-375-2",
+        "x": 175,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "325-375-2",
+        "x": 325,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge27"
+    },
+    {
+      "from": {
+        "id": "175-375-2",
+        "x": 175,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "175-525-2",
+        "x": 175,
+        "y": 525,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge28"
+    },
+    {
+      "from": {
+        "id": "325-375-2",
+        "x": 325,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "287.5-487.5-3",
+        "x": 287.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge29"
+    },
+    {
+      "from": {
+        "id": "325-375-2",
+        "x": 325,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "362.5-487.5-3",
+        "x": 362.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge30"
+    },
+    {
+      "from": {
+        "id": "325-375-2",
+        "x": 325,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "437.5-337.5-3",
+        "x": 437.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge31"
+    },
+    {
+      "from": {
+        "id": "325-375-2",
+        "x": 325,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "437.5-412.5-3",
+        "x": 437.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge32"
+    },
+    {
+      "from": {
+        "id": "175-525-2",
+        "x": 175,
+        "y": 525,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "287.5-487.5-3",
+        "x": 287.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge33"
+    },
+    {
+      "from": {
+        "id": "175-525-2",
+        "x": 175,
+        "y": 525,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "287.5-562.5-3",
+        "x": 287.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge34"
+    },
+    {
+      "from": {
+        "id": "287.5-487.5-3",
+        "x": 287.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "362.5-487.5-3",
+        "x": 362.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge35"
+    },
+    {
+      "from": {
+        "id": "287.5-487.5-3",
+        "x": 287.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "287.5-562.5-3",
+        "x": 287.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge36"
+    },
+    {
+      "from": {
+        "id": "362.5-487.5-3",
+        "x": 362.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "362.5-562.5-3",
+        "x": 362.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge37"
+    },
+    {
+      "from": {
+        "id": "362.5-487.5-3",
+        "x": 362.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "437.5-487.5-3",
+        "x": 437.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge38"
+    },
+    {
+      "from": {
+        "id": "287.5-562.5-3",
+        "x": 287.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "362.5-562.5-3",
+        "x": 362.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge39"
+    },
+    {
+      "from": {
+        "id": "362.5-562.5-3",
+        "x": 362.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "437.5-562.5-3",
+        "x": 437.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge40"
+    },
+    {
+      "from": {
+        "id": "437.5-337.5-3",
+        "x": 437.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "512.5-337.5-3",
+        "x": 512.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge41"
+    },
+    {
+      "from": {
+        "id": "437.5-337.5-3",
+        "x": 437.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "437.5-412.5-3",
+        "x": 437.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge42"
+    },
+    {
+      "from": {
+        "id": "512.5-337.5-3",
+        "x": 512.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "512.5-412.5-3",
+        "x": 512.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge43"
+    },
+    {
+      "from": {
+        "id": "512.5-337.5-3",
+        "x": 512.5,
+        "y": 337.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-375-2",
+        "x": 625,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge44"
+    },
+    {
+      "from": {
+        "id": "437.5-412.5-3",
+        "x": 437.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "512.5-412.5-3",
+        "x": 512.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge45"
+    },
+    {
+      "from": {
+        "id": "437.5-412.5-3",
+        "x": 437.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "437.5-487.5-3",
+        "x": 437.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "id": "edge46"
+    },
+    {
+      "from": {
+        "id": "512.5-412.5-3",
+        "x": 512.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-375-2",
+        "x": 625,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge47"
+    },
+    {
+      "from": {
+        "id": "512.5-412.5-3",
+        "x": 512.5,
+        "y": 412.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "512.5-487.5-3",
+        "x": 512.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge48"
+    },
+    {
+      "from": {
+        "id": "625-375-2",
+        "x": 625,
+        "y": 375,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-525-2",
+        "x": 625,
+        "y": 525,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge49"
+    },
+    {
+      "from": {
+        "id": "437.5-487.5-3",
+        "x": 437.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "512.5-487.5-3",
+        "x": 512.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge50"
+    },
+    {
+      "from": {
+        "id": "437.5-487.5-3",
+        "x": 437.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": true
+      },
+      "to": {
+        "id": "437.5-562.5-3",
+        "x": 437.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge51"
+    },
+    {
+      "from": {
+        "id": "512.5-487.5-3",
+        "x": 512.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "512.5-562.5-3",
+        "x": 512.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge52"
+    },
+    {
+      "from": {
+        "id": "512.5-487.5-3",
+        "x": 512.5,
+        "y": 487.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-525-2",
+        "x": 625,
+        "y": 525,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge53"
+    },
+    {
+      "from": {
+        "id": "437.5-562.5-3",
+        "x": 437.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "512.5-562.5-3",
+        "x": 512.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge54"
+    },
+    {
+      "from": {
+        "id": "512.5-562.5-3",
+        "x": 512.5,
+        "y": 562.5,
+        "width": 75,
+        "height": 75,
+        "level": 3,
+        "rc": 1,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "to": {
+        "id": "625-525-2",
+        "x": 625,
+        "y": 525,
+        "width": 150,
+        "height": 150,
+        "level": 2,
+        "rc": 4,
+        "containsObstacle": false,
+        "containsTarget": false
+      },
+      "id": "edge55"
+    }
+  ],
+  "obstacles": [],
+  "objectives": [
+    {
+      "start": "137.5-37.5-3",
+      "end": "437.5-412.5-3",
+      "id": "A"
+    },
+    {
+      "start": "587.5-112.5-3",
+      "end": "287.5-487.5-3",
+      "id": "B"
+    }
+  ],
+  "initialTargets": [
+    {
+      "start": {
+        "x": 150,
+        "y": 50
+      },
+      "end": {
+        "x": 450,
+        "y": 450
+      }
+    },
+    {
+      "start": {
+        "x": 558,
+        "y": 147
+      },
+      "end": {
+        "x": 254,
+        "y": 468
+      },
+      "name": "Target 2"
+    }
+  ]
+}
